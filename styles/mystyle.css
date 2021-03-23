@@ -19,3 +19,13 @@ body{
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
+/* header */
+header{
+    position: fixed;
+    top: 0;
+}
+
+li {
+    list-style:none ;
+    display: inline-block;
+}
