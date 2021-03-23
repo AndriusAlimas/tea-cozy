@@ -12,7 +12,6 @@ body{
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    background-color: black;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -21,18 +20,20 @@ body{
 }
 /* header */
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     max-height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
     display: flex;
 }
-img{
-    height: 50px;
+/* left corner logo */
+#logo{
+    max-height: 50px;
     padding: 10px;
     
 }
+/* right corner nav menu */
 ul{
  flex: 1;
  justify-content: flex-end;
@@ -40,7 +41,7 @@ ul{
  display: flex;
  list-style:none ;
  margin: 0;
- flex-wrap: wrap;
+ 
 }
 li{
     padding: 0 20px;
@@ -48,4 +49,33 @@ li{
 }
 a{
     color: seashell;
+}
+
+/* main section */
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    min-height: 700px;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("../img/mission-background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#mission-container{
+    width: 100%;
+}
+
+/* othe classes */
+.bg-black{
+    background-color: black;
+}
+.centered-vertically{
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
 }
