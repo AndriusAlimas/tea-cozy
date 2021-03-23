@@ -17,6 +17,7 @@ body{
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
+    text-align: center;
 }
 /* header */
 header{
@@ -25,12 +26,26 @@ header{
     max-height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
+    display: flex;
 }
 img{
     height: 50px;
     padding: 10px;
+    
 }
-li {
-    list-style:none ;
-    display: inline-block;
+ul{
+ flex: 1;
+ justify-content: flex-end;
+ align-items: center;
+ display: flex;
+ list-style:none ;
+ margin: 0;
+ flex-wrap: wrap;
+}
+li{
+    padding: 0 20px;
+    max-width: 50%;
+}
+a{
+    color: seashell;
 }
