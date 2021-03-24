@@ -69,6 +69,14 @@ a{
     width: 100%;
 }
 
+#tea-month{
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 /* othe classes */
 .bg-black{
     background-color: black;
