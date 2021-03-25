@@ -31,6 +31,7 @@ header{
 #logo{
     max-height: 50px;
     padding: 10px;
+    max-width: min-content;
     
 }
 /* right corner nav menu */
@@ -69,14 +70,29 @@ a{
     width: 100%;
 }
 
-#tea-month{
+#tea-month-container{
     display: flex;
     max-width: 1000px;
-    justify-content: center;
-    flex-direction: column;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
-
+img{
+    width: 100%;
+}
+.tea-month-img{
+    min-width: 300px;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+.tea-box{
+    max-width: 300px;
+    min-height: 200px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
 /* othe classes */
 .bg-black{
     background-color: black;
