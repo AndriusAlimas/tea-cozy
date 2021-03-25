@@ -98,14 +98,24 @@ a{
     justify-content: center;
     margin: 5vh 5vw;
     max-height: 500px;
+    flex-wrap: wrap;
 }
 .bg-location{
     background-image: url(../img/locations-background.jpg);
     background-size: cover;
     background-position: center;
     min-height: 500px;
-    flex: 1;
+    background-position: 70% 15%;
     display: flex;
+}
+.locations-box{
+    justify-content: center;
+    margin-top:15px;
+    margin-right: 30px;
+    min-width: 300px;
+    line-height: 6vh;
+    padding-bottom: 3vh;
+    margin-bottom: 12vh;
 }
 
 /* footer section */
@@ -116,7 +126,7 @@ a{
 }
 .centered-vertically{
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 .wrap{
     flex-wrap: wrap;
