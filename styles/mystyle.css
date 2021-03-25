@@ -76,6 +76,23 @@ a{
     margin: 0 auto;
     flex-wrap: wrap;
 }
+
+#locations{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 5vw;
+    max-height: 500px;
+}
+.bg-location{
+    background-image: url(../img/locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 img{
     width: 100%;
 }
